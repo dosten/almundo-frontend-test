@@ -56,7 +56,11 @@ export default {
     },
     methods: {
         onSubmit () {
-            this.name = this.$refs.name.value.trim();
+            var name = this.$refs.name.value.trim();
+            if (name.length == 0) {
+                name = null;
+            }
+            this.name = name;
         },
         cleanStarFilter () {
             this.stars = [];

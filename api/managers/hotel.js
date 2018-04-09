@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const getAll = (name = null, stars = []) => {
     var query = {};
 
-    if (name != null) {
+    if (name) {
         query['$text'] = { '$search': name };
     }
 
