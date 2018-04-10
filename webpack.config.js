@@ -74,7 +74,6 @@ var config = {
             filename: IS_DEVELOPMENT ? '[name].css' : '[name].[contenthash:20].css',
         }),
 
-        //
         new HtmlWebpackPlugin({ template: 'index.html' })
     ],
     resolve: {
