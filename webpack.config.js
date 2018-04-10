@@ -3,7 +3,6 @@ const webpack = require('webpack');
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CompressionPlugin = require('compression-webpack-plugin');
 
 const IS_DEVELOPMENT = process.env.NODE_ENV === 'development';
 const SOURCE_DIR = path.resolve(__dirname, 'client');
@@ -86,9 +85,5 @@ var config = {
         }
     }
 };
-
-if (!IS_DEVELOPMENT) {
-    config.plugins.push(new CompressionPlugin());
-}
 
 module.exports = config;
