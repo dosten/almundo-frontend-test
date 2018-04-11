@@ -1,3 +1,6 @@
+// this needs to be imported here to ensure the polyfills are loaded first
+import 'babel-polyfill';
+
 import Vue from 'vue';
 
 import router from './router';

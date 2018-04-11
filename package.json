@@ -12,6 +12,7 @@
     "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "caniuse-db": "^1.0.30000824",
     "caniuse-lite": "^1.0.30000824",

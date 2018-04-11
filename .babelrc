@@ -3,6 +3,7 @@
         [
             "env",
             {
+                "useBuiltIns": true,
                 "targets": {
                     "browsers": ["> 0.5%", "last 2 versions", "ie >= 10"]
                 }
