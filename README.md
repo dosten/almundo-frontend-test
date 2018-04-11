@@ -7,6 +7,13 @@ Demo
 Se encuentra disponible una versión online de este mismo código corriendo en
 Heroku, la cual se puede encontrar [aca](https://almundo-frontend-test.herokuapp.com).
 
+Pruebas
+-------
+
+Se probo la versión online de este proyecto en distintos sistemas operativos,
+navegadores y resoluciones para asegurar una correcta visualización en los
+navegadores más modernos, los resultados se pueden ver [acá](https://app.crossbrowsertesting.com/public/ie0963dbee54726b/screenshots/z6807377818e38d3d639).
+
 Instalación
 -----------
 
